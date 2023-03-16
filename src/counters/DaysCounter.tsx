@@ -1,12 +1,12 @@
 import { Component } from "solid-js";
 import { time } from "./timeSignal";
 
-export const Counter: Component = () => {
+export const DaysCounter: Component = () => {
     const daysUntil = () => Math.ceil(time() / (1000 * 60 * 60 * 24));
 
     return (
         <div>
-            <h1>{daysUntil}</h1>
+            <h1>{daysUntil()}</h1>
         </div>
     )
 }

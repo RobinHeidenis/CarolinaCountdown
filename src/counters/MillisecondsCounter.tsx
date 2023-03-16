@@ -1,5 +1,5 @@
-import { Component, createSignal, onCleanup } from "solid-js";
-import { time } from "./timeSignal";
+import {Component} from "solid-js";
+import {time} from "./timeSignal";
 
 export const MillisecondsCounter: Component = () => {
     return (
